@@ -41,12 +41,7 @@ The project is organized so that reusable Python modules live in a dedicated pac
 │   ├── pit_loss.csv
 │   └── races.csv
 ├── presentation/
-│   ├── assets/
-│   ├── build.ps1
-│   ├── build_deck.py
-│   ├── deck_analysis.py
-│   ├── F1_Race_Strategy_Simulator.pdf
-│   └── F1_Race_Strategy_Simulator.pptx
+│   ├── detailed analysis 
 ├── reports/
 ├── race_view.html
 ├── requirements.txt
