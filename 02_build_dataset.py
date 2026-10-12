@@ -34,7 +34,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-from common import (
+from f1sim.common import (
     BASELINE_FIRST_LAP,
     BASELINE_LAST_LAP,
     BASELINE_MAX_LAPS,

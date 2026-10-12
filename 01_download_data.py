@@ -21,7 +21,7 @@ import time
 import fastf1
 import pandas as pd
 
-from common import ALL_YEARS, FASTF1_CACHE_DIR, LAPS_PATH, RAW_DIR
+from f1sim.common import ALL_YEARS, FASTF1_CACHE_DIR, LAPS_PATH, RAW_DIR
 
 MAX_ATTEMPTS = 3
 

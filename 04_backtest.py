@@ -37,19 +37,19 @@ import time
 import numpy as np
 import pandas as pd
 
-from common import (
+from f1sim.common import (
     DRY_COMPOUNDS,
     LAPS_PATH,
     MODEL_LAPS_PATH,
     REPORT_DIR,
 )
-from plot_style import (
+from f1sim.plot_style import (
     ACTUAL_COLOR,
     NEUTRAL_COLOR,
     PREDICTED_COLOR,
     apply_matplotlib_style,
 )
-from strategy import (
+from f1sim.strategy import (
     actual_stops,
     best_strategies,
     context_from_laps,

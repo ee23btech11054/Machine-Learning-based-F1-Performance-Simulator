@@ -21,15 +21,15 @@ import plotly.graph_objects as go
 import streamlit as st
 import streamlit.components.v1 as components
 
-from common import DRY_COMPOUNDS, LAPS_PATH, MODEL_LAPS_PATH, TEST_YEARS
-from plot_style import (
+from f1sim.common import DRY_COMPOUNDS, LAPS_PATH, MODEL_LAPS_PATH, TEST_YEARS
+from f1sim.plot_style import (
     ACTUAL_COLOR,
     COMPOUND_COLORS,
     NEUTRAL_COLOR,
     PREDICTED_COLOR,
     plotly_layout,
 )
-from race_animation import (
+from f1sim.race_animation import (
     race_payload,
     render_race_html,
     results_table,
@@ -48,7 +48,7 @@ RACE_CAR_LABELS = {
     "Team": "TEAM",
     "Yours": "YOU",
 }
-from strategy import (
+from f1sim.strategy import (
     MIN_STINT_LAPS,
     actual_stops,
     best_strategies,

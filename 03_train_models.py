@@ -47,7 +47,7 @@ from sklearn.preprocessing import (
     StandardScaler,
 )
 
-from common import (
+from f1sim.common import (
     DRY_COMPOUNDS,
     MODEL_DIR,
     MODEL_LAPS_PATH,
@@ -56,14 +56,14 @@ from common import (
     RANDOM_STATE,
     REPORT_DIR,
 )
-from plot_style import (
+from f1sim.plot_style import (
     ACTUAL_COLOR,
     COMPOUND_COLORS,
     NEUTRAL_COLOR,
     TEXT_SECONDARY,
     apply_matplotlib_style,
 )
-from strategy import CATEGORICAL_FEATURES, FEATURES, NUMERIC_FEATURES, TARGET
+from f1sim.strategy import CATEGORICAL_FEATURES, FEATURES, NUMERIC_FEATURES, TARGET
 
 apply_matplotlib_style()
 
